@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remediation</title>
-    <link rel="stylesheet" href="/NPO-Remediation/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/NPO-Remediation/css/style.css">
+    <title>Programs</title>
+    <link rel="stylesheet" href="/NPO Remediation/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/NPO Remediation/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/NPO Remediation/css/style.css">
 </head>
 <body>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-* px-5 p-3">
-        <a class="navbar-brand" href="#">
-            <img src="/NPO-Remediation/images/remediation Logo.png" alt="Logo" width="20%">    
+        <a class="navbar-brand" href="/NPO Remediation/index.html">
+            <img src="/NPO Remediation/images/remediation Logo.png" id="navLogo" alt="Logo" height="50px">    
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -21,27 +22,34 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="/NPO-Remediation/index.html">Home</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="/NPO-Remediation/index.html#About">About</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/index.html#About">About</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link mx-2" href="#">Programs</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/programs/programs.html">Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="/NPO-Remediation/index.html#Stories">Stories</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/index.html#Stories">Stories</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mx-2" href="#Contact">Contact</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <div class="nav-link ml-4 custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="selector">
+                        <label class="custom-control-label" for="selector">Dark Mode</label>
+                    </div>
+                </li> -->
                 <li class="nav-item mx-2">
-                    <button class="btn btn-green p-2">
-                        <a class="nav-button-link" href="#Programs">
-                            Get Started
-                        </a>
-                    </button>
+                        <button class="btn btn-green p-2">
+                            <a class="nav-button-link" href="#About">
+                                Get Started
+                            </a>
+                        </button>
                 </li>
             </ul>
         </div>
@@ -64,7 +72,7 @@
                         Determining if persistent, unshakable dark feelings are a result of depression can be the first step toward healing and recovery. Read through these warning signs to see if it’s time for you to see a mental health professional.</p>
                 </div>
                 <div class="col-lg-5">
-                    <img class="program-image" src="/NPO-Remediation/images/Depressed Kid.jpg" width="100%">
+                    <img class="program-image" src="/NPO Remediation/images/Depressed Kid.jpg" width="100%">
                 </div>
             </div>
             
@@ -104,7 +112,7 @@
         </section>
 
 
-    <!-- Contact Section -->
+   <!-- Contact Section -->
     <section class="container-fluid p-5" id="Contact">
         <div class="text-center">
             <h4 class="light-green">CONTACT</h4>
@@ -113,13 +121,13 @@
 
         <div class="row">
             <div class="col-lg-6 mt-3">
-                <img src="/NPO-Remediation/images/Contact Image.png" alt="About Us Image" width="100%">
+                <img src="/NPO Remediation/images/Contact Image.png" alt="About Us Image" width="100%">
             </div>
-            <div class="col-lg-6 mt-3">
+            <div class="col-lg-6 mt-2">
                 <h3 class="text-bold green">Get in touch with Us</h3>
-                <p class="mt-4">Any questions or suggestions? Write to us here.</p>
+                <p class="mt-2">Any questions or suggestions? Write to us here.</p>
 
-                <div class="row mt-3">
+                <div class="row mt-2 mr-15">
                     <div class="col-lg-6">
                         <div class="form-group row pl-3">
                             <input type="name" class="form-control" placeholder="First Name">
@@ -133,7 +141,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-4">
+                <div class="row mt-2 marg-4 mr-15">
                     <div class="col-lg-6">
                         <div class="form-group row pl-3">
                             <input type="email" class="form-control" placeholder="Email">
@@ -145,27 +153,26 @@
                             <input type="phone" class="form-control" placeholder="Phone">
                         </div>
                     </div>
+                        <textarea class="form-control mt-2 w-100 marg-4 ml-3 mr-15" cols="30" rows="10" placeholder="Write Message"></textarea>
+                        <button class="ml-3 mt-3 btn btn-lg btn-green w-100">Submit</button>
                 </div>
-
-                <textarea class="form-control mt-4 w-100" placeholder="Write Message" cols="30" rows="8 "></textarea>
-                <button class="btn btn-green mt-4 w-100">Send</button>
 
                 <h3 class="text-bold green mt-5">Social Media</h3>
                 <div class="row mt-4">
                     <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/facebook.png" alt="" width="100%">
+                        <i class="fab fa-facebook green fa-3x"></i>
                     </a>
                     <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/twitter.png" alt="" width="100%">
+                        <i class="fab fa-twitter green fa-3x"></i>
                     </a>
                     <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/linkedin.png" alt="" width="100%">
+                        <i class="fab fa-linkedin green fa-3x"></i>
                     </a>
                     <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/telegram.png" alt="" width="100%">
+                        <i class="fab fa-telegram green fa-3x"></i>
                     </a>
                     <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/slack.png" alt="" width="100%">
+                        <i class="fab fa-slack green fa-3x"></i>
                     </a>
                     <div class="col-lg-5"></div>
                 </div>
@@ -173,12 +180,14 @@
         </div>
     </section>
 
+
     <!-- Footer -->
-    <footer class="container-fluid my-5 text-center">
-        <h4 class="green text-bold pb-3">&copy; Remediation 2022. All right reserved.</h4>
+    <footer class="container-fluid text-center">
+        <h4 class="green text-bold pb-2">&copy; Remediation 2022. All right reserved.</h4>
     </footer>
 
-    <script src="/NPO-Remediation/js/jquery-3.6.0.min.js"></script>
-    <script src="/NPO-Remediation/js/bootstrap.min.js"></script>
+    <script src="/NPO Remediation/js/jquery-3.6.0.min.js"></script>
+    <script src="/NPO Remediation/js/bootstrap.min.js"></script>
+    <script src="/NPO Remediation/js/script.js"></script>
 </body>
 </html>

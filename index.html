@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remediation</title>
-    <link rel="stylesheet" href="/NPO-Remediation/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/NPO-Remediation/css/style.css">
+    <link rel="stylesheet" href="/NPO Remediation/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/NPO Remediation/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="/NPO Remediation/css/style.css">
 </head>
 <body>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-sm navbar-light bg-* px-5 p-3">
-        <a class="navbar-brand" href="#">
-            <img src="/NPO-Remediation/images/remediation Logo.png" alt="Logo" width="20%">    
+        <a class="navbar-brand" href="/NPO Remediation/index.html">
+            <img src="/NPO Remediation/images/remediation Logo.png" id="navLogo" alt="Logo" height="50px">    
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -21,14 +22,15 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                
                 <li class="nav-item active">
-                    <a class="nav-link mx-2" href="#">Home</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mx-2" href="#About">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="/NPO-Remediation/programs/programs.html">Programs</a>
+                    <a class="nav-link mx-2" href="/NPO Remediation/programs/programs.html">Programs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mx-2" href="#Stories">Stories</a>
@@ -36,6 +38,12 @@
                 <li class="nav-item">
                     <a class="nav-link mx-2" href="#Contact">Contact</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <div class="nav-link ml-4 custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="selector">
+                        <label class="custom-control-label" for="selector">Dark Mode</label>
+                    </div>
+                </li> -->
                 <li class="nav-item mx-2">
                         <button class="btn btn-green p-2">
                             <a class="nav-button-link" href="#About">
@@ -50,7 +58,7 @@
     <!-- Hero Section -->
     <section class="container-fluid p-5" id="Hero">
         <h2 class="Hero-text mx-5 px-5">Feeling Down? or are you feeling Demotivated with things and you need help. Talk to us we are happy to listen, We are here for you.</h2>
-        <img class="pt-4" src="/NPO-Remediation/images/Hero Image.png" alt="Hero Image" width="100%">
+        <img class="pt-4" src="/NPO Remediation/images/Hero Image.png" alt="Hero Image" width="100%">
     </section>
 
     <!-- About Us Section -->
@@ -75,7 +83,7 @@
                     facilisis leo, vel fringilla est ullamcorper eget nulla facilisi.</p>
             </div>
             <div class="col-lg-6">
-                <img src="/NPO-Remediation/images/About Us Image.png" alt="About Us Image" width="100%">
+                <img src="/NPO Remediation/images/About Us Image.png" alt="About Us Image" width="100%">
             </div>
         </div>
     </section>
@@ -87,234 +95,153 @@
             <h4 class="light-green">PROGRAMS</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
         </div>
-        <div class="row mt-4">
-            <div class="col-lg-3 col-6">
-                <a class="program-link" href="#">
-                    <div class="card m-2 program-card">
-                    <img class="" src="/NPO-Remediation/images/Depression.png" alt="" width="100%">
-                    <div class="program-footer">
-                        <h5>Depression</h5>
-                    </div>
-                    </div>
-                </a>
+
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="card program-card text-white text-left p-3 bg-green">
+                    <h4 class="card-title">Depression</h4>
+                    <small>Depression is a common and serious medical illness that negatively affects how you feel, the way you think and how you act.</small>
+                    <a href="/NPO Remediation/programs/depression.html" class="btn btn-light-green btn-sm mt-3 ml-auto">Read more</a>
+                </div>
             </div>
 
-            <div class="col-lg-3 col-6">
-                <a class="program-link" href="#">
-                    <div class="card m-2 program-card">
-                    <img class="" src="/NPO-Remediation/images/Addiction.jpg" alt="" width="100%">
-                    <div class="program-footer">
-                        <h5>Addiction</h5>
-                    </div>
-                    </div>
-                </a>
+            <div class="col-lg-3">
+                <div class="card program-card text-white text-left p-3 bg-green">
+                    <h4 class="card-title">Addiction</h4>
+                    <small>Addiction is a condition in which a person is unable to stop using a substance or engaging in a particular behavior,</small>
+                    <a href="/NPO Remediation/programs/programs.html" class="btn btn-light-green btn-sm mt-3 ml-auto">Read more</a>
+                </div>
             </div>
 
-            <div class="col-lg-3 col-6">
-                <a class="program-link" href="#">
-                    <div class="card m-2 program-card">
-                    <img class="" src="/NPO-Remediation/images/Peer Pressure.jpg" alt="" width="100%">
-                    <div class="program-footer">
-                        <h5>Peer Pressure</h5>
-                    </div>
-                    </div>
-                </a>
+            <div class="col-lg-3">
+                <div class="card program-card text-white text-left p-3 bg-green">
+                    <h4 class="card-title">Overthinking</h4>
+                    <small>Overthinking is an unhealthy habit that typically causes more stress by focusing on the negative, dwelling on the past and worrying about the future.</small>
+                    <a href="/NPO Remediation/programs/programs.html" class="btn btn-light-green btn-sm mt-3 ml-auto">Read more</a>
+                </div>
             </div>
 
-            <div class="col-lg-3 col-6">
-                <a class="program-link" href="#">
-                    <div class="card m-2 program-card">
-                    <img class="" src="/NPO-Remediation/images/Bullying.jpg" alt="" width="100%">
-                    <div class="program-footer">
-                        <h5>Bullying</h5>
-                    </div>
-                    </div>
-                </a>
+            <div class="col-lg-3">
+                <div class="card program-card text-white text-left p-3 bg-green">
+                    <h4 class="card-title">Gambling</h4>
+                    <small>Gambling is the wagering of something of value ("the stakes") on an event with an uncertain outcome with the intent of winning something else of value.</small>
+                    <a href="/NPO Remediation/programs/programs.html" class="btn btn-light-green btn-sm mt-3 ml-auto">Read more</a>
+                </div>
             </div>
         </div>
+        
         <div class="text-right">
-            <button class="btn btn-green p-2 m-2 mt-4">See all</button>
+            <a href="/NPO Remediation/programs/programs.html" class="btn btn-green sea-all-button p-2 mt-4">See all</a>
         </div>
     </section>
 
     <!-- Stories Section -->
+
     <section class="container-fluid pt-5" id="Stories">
         <div class="text-center">
             <h4 class="light-green">SUCCESS STORIES</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
         </div>
 
-        
-
-        <div id="carouselId" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <div class="row p-5">
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
+        <div class="container-fluid">
+            <div class="row p-5">
+                <div class="col-lg-6">
+                    <div class="row story-card m-2 p-2">
+                        <div class="col-lg-4 m-2 p-0">
+                            <img src="/NPO Remediation/images/story2.jpg" alt="" width="100%" class="story-image">
                         </div>
-            
-                        
-            
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story1.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
+                        <div class="col-lg-7 m-2 p-0">
+                            <h1 class="display m-0 p-0">"</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, eveniet. Cum quos, autem ex praesentium reiciendis quibusdam? Eveniet, fugiat commodi repellendus</p>
+                            <h5 class="font-weight-bolder text-green">John Doe</h5>
+                            <small><i>Battled with:</i>Depression</small>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row p-5">
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="row story-card m-2 p-2">
+                        <div class="col-lg-4 m-2 p-0">
+                            <img src="/NPO Remediation/images/story2.jpg" alt="" width="100%" class="story-image">
                         </div>
-            
-                        
-            
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story1.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row p-5">
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
-                        </div>
-            
-                        
-            
-                        <div class="col-lg-6">
-                            <div class="card p-4 ml-4 story-card">
-                                <img class="story-image" src="/NPO-Remediation/images/story1.jpg" alt="" width="40%">
-                              <div class="card-body">
-                                <h4 class="card-title text-bold green">John Doe</h4>
-                                <h6 class="card-text small">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</h6>
-                                <h5 class="mt-4"><span class="font-italic small">Battled with:</span> Depression</h5>
-                              </div>
-                            </div>
+                        <div class="col-lg-7 m-2 p-0">
+                            <h1 class="display m-0 p-0">"</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, eveniet. Cum quos, autem ex praesentium reiciendis quibusdam? Eveniet, fugiat commodi repellendus</p>
+                            <h5 class="font-weight-bolder text-green">John Doe</h5>
+                            <small><i>Battled with:</i>Depression</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <div class="carousel-buttons m-2 d-flex justify-content-between">
-        <a href="#carouselId" class="carousel-link1" role="button" data-slide="prev">
-            <span>
-                <img src="/NPO-Remediation/images/left.png" width="50%">
-            </span>
-        </a>
-        <a href="#carouselId" class="carousel-link2" role="button" data-slide="next">
-            <span>
-                <img src="/NPO-Remediation/images/right.png" width="50%">
-            </span>
-        </a>
+   <!-- Contact Section -->
+   <section class="container-fluid p-5" id="Contact">
+    <div class="text-center">
+        <h4 class="light-green">CONTACT</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
     </div>
 
-    <!-- Contact Section -->
-    <section class="container-fluid p-5" id="Contact">
-        <div class="text-center">
-            <h4 class="light-green">CONTACT</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
+    <div class="row">
+        <div class="col-lg-6 mt-3">
+            <img src="/NPO Remediation/images/Contact Image.png" alt="About Us Image" width="100%">
         </div>
+        <div class="col-lg-6 mt-2">
+            <h3 class="text-bold green">Get in touch with Us</h3>
+            <p class="mt-2">Any questions or suggestions? Write to us here.</p>
 
-        <div class="row">
-            <div class="col-lg-6 mt-3">
-                <img src="/NPO-Remediation/images/Contact Image.png" alt="About Us Image" width="100%">
-            </div>
-            <div class="col-lg-6 mt-3">
-                <h3 class="text-bold green">Get in touch with Us</h3>
-                <p class="mt-4">Any questions or suggestions? Write to us here.</p>
-
-                <div class="row mt-3">
-                    <div class="col-lg-6">
-                        <div class="form-group row pl-3">
-                            <input type="name" class="form-control" placeholder="First Name">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="form-group row pl-3">
-                            <input type="name" class="form-control" placeholder="Last Name">
-                        </div>
+            <div class="row mt-2 mr-15">
+                <div class="col-lg-6">
+                    <div class="form-group row pl-3">
+                        <input type="name" class="form-control" placeholder="First Name">
                     </div>
                 </div>
 
-                <div class="row mt-4">
-                    <div class="col-lg-6">
-                        <div class="form-group row pl-3">
-                            <input type="email" class="form-control" placeholder="Email">
-                        </div>
+                <div class="col-lg-6">
+                    <div class="form-group row pl-3">
+                        <input type="name" class="form-control" placeholder="Last Name">
                     </div>
-
-                    <div class="col-lg-6">
-                        <div class="form-group row pl-3">
-                            <input type="phone" class="form-control" placeholder="Phone">
-                        </div>
-                    </div>
-
-                        <textarea class="form-control mt-4 ml-3 w-100" placeholder="Write Message" cols="30" rows="8"></textarea>
-                        <button class="btn btn-green mt-4 ml-3 w-100">Send</button>
-                </div>
-
-                <h3 class="text-bold green mt-5">Social Media</h3>
-                <div class="row mt-4">
-                    <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/facebook.png" alt="" width="100%">
-                    </a>
-                    <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/twitter.png" alt="" width="100%">
-                    </a>
-                    <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/linkedin.png" alt="" width="100%">
-                    </a>
-                    <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/telegram.png" alt="" width="100%">
-                    </a>
-                    <a class="col" href="#">
-                        <img src="/NPO-Remediation/images/slack.png" alt="" width="100%">
-                    </a>
-                    <div class="col-lg-5"></div>
                 </div>
             </div>
+
+            <div class="row mt-2 marg-4 mr-15">
+                <div class="col-lg-6">
+                    <div class="form-group row pl-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-group row pl-3">
+                        <input type="phone" class="form-control" placeholder="Phone">
+                    </div>
+                </div>
+                    <textarea class="form-control mt-2 w-100 marg-4 ml-3 mr-15" cols="30" rows="10" placeholder="Write Message"></textarea>
+                    <button class="ml-3 mt-3 btn btn-lg btn-green w-100">Submit</button>
+            </div>
+
+            <h3 class="text-bold green mt-5">Social Media</h3>
+            <div class="row mt-4">
+                <a class="col" href="#">
+                    <i class="fab fa-facebook green fa-3x"></i>
+                </a>
+                <a class="col" href="#">
+                    <i class="fab fa-twitter green fa-3x"></i>
+                </a>
+                <a class="col" href="#">
+                    <i class="fab fa-linkedin green fa-3x"></i>
+                </a>
+                <a class="col" href="#">
+                    <i class="fab fa-telegram green fa-3x"></i>
+                </a>
+                <a class="col" href="#">
+                    <i class="fab fa-slack green fa-3x"></i>
+                </a>
+                <div class="col-lg-5"></div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
 
     <!-- Footer -->
@@ -322,7 +249,8 @@
         <h4 class="green text-bold pb-2">&copy; Remediation 2022. All right reserved.</h4>
     </footer>
 
-    <script src="/NPO-Remediation/js/jquery-3.6.0.min.js"></script>
-    <script src="/NPO-Remediation/js/bootstrap.min.js"></script>
+    <script src="/NPO Remediation/js/jquery-3.6.0.min.js"></script>
+    <script src="/NPO Remediation/js/bootstrap.min.js"></script>
+    <script src="/NPO Remediation/js/script.js"></script>
 </body>
 </html>
