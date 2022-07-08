@@ -1,13 +1,13 @@
 @font-face {
     font-family: "SF Pro Regular";
-    src: url("/NPO Remediation/font/Montserrat-Medium.ttf");
-    /* src: url("/NPO Remediation/font/SFPRODISPLAYREGULAR.OTF"); */
+    src: url("/font/Montserrat-Medium.ttf");
+    /* src: url("/font/SFPRODISPLAYREGULAR.OTF"); */
 }
 
 @font-face {
     font-family: "SF Pro Bold";
-    src: url("/NPO Remediation/font/Montserrat-Bold.ttf");
-    /* src: url("/NPO Remediation/font/SFPRODISPLAYBOLD.OTF"); */
+    src: url("/font/Montserrat-Bold.ttf");
+    /* src: url("/font/SFPRODISPLAYBOLD.OTF"); */
 }
 
 *{
